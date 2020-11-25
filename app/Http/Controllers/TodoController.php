@@ -99,6 +99,7 @@ class TodoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $todo = Auth::user()->todos()->findOrFail($id);
+        $todo->delete();
     }
 }
