@@ -35,6 +35,7 @@
                                 <button class="btn btn-danger" type="submit"><i class="fas fa-trash-alt mr-2"></i>削除</button>
                             </form>
                         </th>
+                    </tr>
                 @endforeach
                 </tbody>
             </table>
